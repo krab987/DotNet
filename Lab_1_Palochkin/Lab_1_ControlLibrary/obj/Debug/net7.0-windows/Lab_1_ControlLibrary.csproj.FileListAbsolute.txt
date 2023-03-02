@@ -1,0 +1,15 @@
+W:\projects\C#\.Net\DotNet\Lab_1_ControlLibrary\obj\Debug\net7.0-windows\Lab_1_ControlLibrary.csproj.AssemblyReference.cache
+W:\projects\C#\.Net\DotNet\Lab_1_ControlLibrary\obj\Debug\net7.0-windows\Lab_1_ControlLibrary.Lab_1_UserControl.resources
+W:\projects\C#\.Net\DotNet\Lab_1_ControlLibrary\obj\Debug\net7.0-windows\Lab_1_ControlLibrary.csproj.GenerateResource.cache
+W:\projects\C#\.Net\DotNet\Lab_1_ControlLibrary\obj\Debug\net7.0-windows\Lab_1_ControlLibrary.GeneratedMSBuildEditorConfig.editorconfig
+W:\projects\C#\.Net\DotNet\Lab_1_ControlLibrary\obj\Debug\net7.0-windows\Lab_1_ControlLibrary.AssemblyInfoInputs.cache
+W:\projects\C#\.Net\DotNet\Lab_1_ControlLibrary\obj\Debug\net7.0-windows\Lab_1_ControlLibrary.AssemblyInfo.cs
+W:\projects\C#\.Net\DotNet\Lab_1_ControlLibrary\obj\Debug\net7.0-windows\Lab_1_ControlLibrary.csproj.CoreCompileInputs.cache
+W:\projects\C#\.Net\DotNet\Lab_1_ControlLibrary\bin\Debug\net7.0-windows\Lab_1_ControlLibrary.deps.json
+W:\projects\C#\.Net\DotNet\Lab_1_ControlLibrary\bin\Debug\net7.0-windows\Lab_1_ControlLibrary.dll
+W:\projects\C#\.Net\DotNet\Lab_1_ControlLibrary\bin\Debug\net7.0-windows\Lab_1_ControlLibrary.pdb
+W:\projects\C#\.Net\DotNet\Lab_1_ControlLibrary\obj\Debug\net7.0-windows\Lab_1_ControlLibrary.dll
+W:\projects\C#\.Net\DotNet\Lab_1_ControlLibrary\obj\Debug\net7.0-windows\refint\Lab_1_ControlLibrary.dll
+W:\projects\C#\.Net\DotNet\Lab_1_ControlLibrary\obj\Debug\net7.0-windows\Lab_1_ControlLibrary.pdb
+W:\projects\C#\.Net\DotNet\Lab_1_ControlLibrary\obj\Debug\net7.0-windows\ref\Lab_1_ControlLibrary.dll
+W:\projects\C#\.Net\DotNet\Lab_1_ControlLibrary\obj\Debug\net7.0-windows\Lab_1_ControlLibrary.Properties.Resources.resources
