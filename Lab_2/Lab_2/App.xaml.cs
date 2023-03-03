@@ -13,5 +13,12 @@ namespace Lab_2
     /// </summary>
     public partial class App : Application
     {
+        override protected void OnStartup(StartupEventArgs e)
+        {
+            MainWindow = new MainWindow();
+            MainWindow.Show();
+            
+            base.OnStartup(e);
+        }
     }
 }

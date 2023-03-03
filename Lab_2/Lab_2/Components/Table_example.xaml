@@ -1,0 +1,94 @@
+﻿<UserControl x:Class="Lab_2.Components.Table_example"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Lab_2.Components"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <FlowDocumentScrollViewer>
+            <FlowDocument>
+                <Table Name="tblDummyData">
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <TextBlock Text="1.1" />
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <TextBlock Text="1.2" />
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <TextBlock Text="1.3" />
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <TextBlock Text="2.1" />
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <TextBlock Text="2.2" />
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <TextBlock Text="2.3" />
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <TextBlock Text="3.1" />
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <TextBlock Text="3.2" />
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <TextBlock Text="3.3" />
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <TextBlock Text="4.1" />
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <TextBlock Text="4.2" />
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <TextBlock Text="4.3" />
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+
+        <Button Content="Add" Click="Button_Click" Grid.Row="1" />
+    </Grid>
+</UserControl>
