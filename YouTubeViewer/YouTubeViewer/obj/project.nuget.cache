@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IrcjL6l2YcpWsngVRwf8yrNVz1M3JuwNQ1RlwrAA97PAk9N3+z7U2f+UUcCzg3MBqE7TvBNQii/YT6S1Cq0e9A==",
+  "success": true,
+  "projectFilePath": "W:\\projects\\C#\\.Net\\YouTubeViewer\\YouTubeViewer\\YouTubeViewer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\paloc\\.nuget\\packages\\dropdownmenu.wpf\\1.0.0\\dropdownmenu.wpf.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
