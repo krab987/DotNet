@@ -8,12 +8,12 @@
     <Grid>
         <FlowDocumentScrollViewer>
             <FlowDocument>
-                <Table Name="tblTVShow">
+                <Table Name="TblTvShow">
                     <TableRowGroup>
                         <TableRow>
                             <TableCell>
                                 <Paragraph>
-                                    <TextBlock Text="Name" />
+                                    <TextBlock Text="{Binding Name}" />
                                 </Paragraph>
                             </TableCell>
                             <TableCell>

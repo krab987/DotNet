@@ -14,14 +14,13 @@ namespace Lab_2.View
         }
         private void AddRow_Click(object sender, RoutedEventArgs e)
         {
-            var rowGroup = tv_show.tblTVShow.RowGroups.FirstOrDefault();
+            var rowGroup = tv_show.TblTvShow.RowGroups.FirstOrDefault();
 
             if (rowGroup != null)
             {
                 TableRow row = new TableRow();
-
+                
                 TableCell cell = new TableCell();
-
                 cell.Blocks.Add(new Paragraph(new Run("New Cell 1")));
                 row.Cells.Add(cell);
 

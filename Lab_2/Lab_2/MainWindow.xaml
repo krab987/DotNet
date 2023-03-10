@@ -30,7 +30,7 @@
             </Grid.ColumnDefinitions>
             
             <components:TV_Listing/>
-            <components:Table_example Grid.Column="1" Margin="10 0 0 0"/>
+            <components:Table_example Grid.Column="1" Margin="10,0,0,0"/>
         </Grid>
 
     </Grid>

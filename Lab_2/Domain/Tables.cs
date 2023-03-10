@@ -2,25 +2,25 @@
 
 namespace Domain
 {
-    public class TableItem : List<Rows> { }
+    public class Table : List<TVShowRows> { }
     public class DataBase
     {
-        private static DataBase? instance = null;
-        private DataBase()
-        {
-            Items = new TableItem();
-        }
-
-        public static DataBase Instance
+        public Table TableItem { get; }
+        private static DataBase? database = null;
+        public static DataBase Database
         { 
             get
             {
-                if (instance == null)
-                    instance = new DataBase();
-                return instance;
+                if (database == null)
+                    database = new DataBase();
+                return database;
             }
         }
+        
+        private DataBase()
+        {
+            TableItem = new Table();
+        }
 
-        public TableItem Items { get; }
     }
 }
