@@ -1,4 +1,6 @@
-﻿using System.Windows;
+﻿using Lab_2.Model.Enums;
+using Lab_2.Model;
+using System.Windows;
 
 namespace Lab_2
 {
@@ -11,5 +13,6 @@ namespace Lab_2
         {
             InitializeComponent();
         }
+
     }
 }

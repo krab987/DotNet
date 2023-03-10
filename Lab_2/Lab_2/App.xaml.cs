@@ -1,10 +1,13 @@
-﻿using System;
+﻿using Lab_2.Model.Enums;
+using Lab_2.Model;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
 
 namespace Lab_2
 {
@@ -13,12 +16,12 @@ namespace Lab_2
     /// </summary>
     public partial class App : Application
     {
-        override protected void OnStartup(StartupEventArgs e)
+        protected override void OnStartup(StartupEventArgs e)
         {
             MainWindow = new MainWindow();
             MainWindow.Show();
-            
             base.OnStartup(e);
         }
+
     }
 }

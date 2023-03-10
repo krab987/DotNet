@@ -20,13 +20,11 @@ W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Lab_2.pdb
 W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Lab_2.genruntimeconfig.cache
 W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\ref\Lab_2.dll
 W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Components\Table_example.g.cs
-W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Components\TV_Listing.g.cs
-W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Components\TV_Table.g.cs
 W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\View\TV_view.g.cs
 W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
 W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Components\Table_example.baml
-W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Components\TV_Listing.baml
-W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Components\TV_Table.baml
 W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\View\TV_view.baml
 W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Components\tv_show.baml
 W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Components\tv_show.g.cs
+W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Components\tv_channel.g.cs
+W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Components\tv_channel.baml

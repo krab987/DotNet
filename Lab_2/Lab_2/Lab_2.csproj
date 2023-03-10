@@ -7,9 +7,4 @@
         <UseWPF>true</UseWPF>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="Tables" />
-      <Folder Include="ViewModels" />
-    </ItemGroup>
-
 </Project>

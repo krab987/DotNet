@@ -1,41 +1,29 @@
-﻿<UserControl x:Class="Lab_2.Components.tv_show"
+﻿<UserControl
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             mc:Ignorable="d"
-             d:DesignHeight="300" d:DesignWidth="500">
-    <Grid>
-        <FlowDocumentScrollViewer>
-            <FlowDocument>
-                <Table Name="TblTvShow">
-                    <TableRowGroup>
-                        <TableRow>
-                            <TableCell>
-                                <Paragraph>
-                                    <TextBlock Text="{Binding Name}" />
-                                </Paragraph>
-                            </TableCell>
-                            <TableCell>
-                                <Paragraph>
-                                    <TextBlock Text="Type" />
-                                </Paragraph>
-                            </TableCell>
-                            <TableCell>
-                                <Paragraph>
-                                    <TextBlock Text="Duration" />
-                                </Paragraph>
-                            </TableCell>
-                            <TableCell>
-                                <Paragraph>
-                                    <TextBlock Text="Category" />
-                                </Paragraph>
-                            </TableCell>
-                        </TableRow>
-                        
-                    </TableRowGroup>
-                </Table>
-            </FlowDocument>
-        </FlowDocumentScrollViewer>
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Lab_2.Components"
+             xmlns:Model="clr-namespace:Lab_2.Model" x:Class="Lab_2.Components.tv_show"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="White">
+        <DataGrid ItemsSource="{Binding}"  x:Name="grid" Loaded="grid_Loaded" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ShowID" Binding="{Binding Path=IdShow}" IsReadOnly="True"/>
+                <DataGridTextColumn Width="*" Header="Name" Binding="{Binding Path=Name}" IsReadOnly="True"/>
+                <DataGridTextColumn Width="*" Header="TypeShow" Binding="{Binding Path=TypeShow}" IsReadOnly="True"/>
+                <DataGridTextColumn Width="*" Header="Duration" Binding="{Binding Path=Duration}" IsReadOnly="True"/>
+                <DataGridTextColumn Width="*" Header="Category" Binding="{Binding Path= ShowCategory}" IsReadOnly="True"/>
+
+                <!--<DataGridComboBoxColumn Width="*" Header="Category"  SelectedItemBinding="{Binding ShowCategory}" IsReadOnly="True"/>-->
+                <!--<DataGridComboBoxColumn Header="Order Status"  SelectedItemBinding="{Binding ShowCategory}" ItemsSource="{Binding Source={StaticResource ResourceKey=ShowCategory}}" />-->
+                <!--<DataGridTextColumn Width="*" Header="Category" Binding="{Binding Path=CategoryShow}" IsReadOnly="True"/>-->
+            </DataGrid.Columns>
+            <DataGrid.DataContext>
+                <Model:TableShow/>
+            </DataGrid.DataContext>
+        </DataGrid>
+
     </Grid>
 </UserControl>
