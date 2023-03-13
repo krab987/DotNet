@@ -7,14 +7,30 @@
              xmlns:Model="clr-namespace:Lab_2.Model" x:Class="Lab_2.Components.tv_show"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid Background="White">
-        <DataGrid ItemsSource="{Binding}"  x:Name="grid" Loaded="grid_Loaded" AutoGenerateColumns="False">
+    <Grid>
+        <DataGrid ItemsSource="{Binding}"  x:Name="grid" ColumnHeaderStyle="{Binding Mode=OneWay, Source={StaticResource HeaderStyle}}" Loaded="grid_Loaded" AutoGenerateColumns="False" Background="{x:Null}" BorderBrush="{x:Null}">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ShowID" Binding="{Binding Path=IdShow}" IsReadOnly="True"/>
-                <DataGridTextColumn Width="*" Header="Name" Binding="{Binding Path=Name}" IsReadOnly="True"/>
-                <DataGridTextColumn Width="*" Header="TypeShow" Binding="{Binding Path=TypeShow}" IsReadOnly="True"/>
-                <DataGridTextColumn Width="*" Header="Duration" Binding="{Binding Path=Duration}" IsReadOnly="True"/>
-                <DataGridTextColumn Width="*" Header="Category" Binding="{Binding Path= ShowCategory}" IsReadOnly="True"/>
+                <DataGridTextColumn Width="*" Header="Name" Binding="{Binding Path=Name}" IsReadOnly="True" MinWidth="100"/>
+                <DataGridTextColumn Width="*" Header="TypeShow" Binding="{Binding Path=TypeShow}" IsReadOnly="True" MinWidth="150"/>
+                <DataGridTextColumn Width="*" Header="Duration" Binding="{Binding Path=Duration}" IsReadOnly="True" MinWidth="50"/>
+                <DataGridTextColumn Width="*" Header="Category" Binding="{Binding Path= ShowCategory}" IsReadOnly="True" MinWidth="100">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="{x:Type TextBlock}">
+                            <Style.Triggers>
+                                <Trigger Property="Text" Value="Червоний">
+                                    <Setter Property="Background" Value="LightPink"/>
+                                </Trigger>
+                                <Trigger Property="Text" Value="Жовтий">
+                                    <Setter Property="Background" Value="#FFFFFF67"/>
+                                </Trigger>
+                                <Trigger Property="Text" Value="Зелений">
+                                    <Setter Property="Background" Value="LightGreen"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
 
                 <!--<DataGridComboBoxColumn Width="*" Header="Category"  SelectedItemBinding="{Binding ShowCategory}" IsReadOnly="True"/>-->
                 <!--<DataGridComboBoxColumn Header="Order Status"  SelectedItemBinding="{Binding ShowCategory}" ItemsSource="{Binding Source={StaticResource ResourceKey=ShowCategory}}" />-->

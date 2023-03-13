@@ -36,10 +36,10 @@
             <components:Listing 
                 Grid.Column="0" 
                 DataContext="{Binding ListingModel}"/>
-            <components:Details 
+            <!--<components:Details 
                 Grid.Column="1" 
                 Margin="20 0 0 0" 
-                DataContext="{Binding DetailsModel}"/>
+                DataContext="{Binding DetailsModel}"/>-->
         </Grid>
 
 

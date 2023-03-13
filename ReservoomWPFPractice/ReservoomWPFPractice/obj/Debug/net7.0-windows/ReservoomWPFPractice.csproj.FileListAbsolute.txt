@@ -1,0 +1,5 @@
+W:\projects\C#\ReservoomWPFPractice\ReservoomWPFPractice\obj\Debug\net7.0-windows\ReservoomWPFPractice.csproj.AssemblyReference.cache
+W:\projects\C#\ReservoomWPFPractice\ReservoomWPFPractice\obj\Debug\net7.0-windows\MainWindow.g.cs
+W:\projects\C#\ReservoomWPFPractice\ReservoomWPFPractice\obj\Debug\net7.0-windows\App.g.cs
+W:\projects\C#\ReservoomWPFPractice\ReservoomWPFPractice\obj\Debug\net7.0-windows\ReservoomWPFPractice_MarkupCompile.cache
+W:\projects\C#\ReservoomWPFPractice\ReservoomWPFPractice\obj\Debug\net7.0-windows\ReservoomWPFPractice_MarkupCompile.lref

@@ -24,9 +24,9 @@ namespace YouTubeViewer.ViewModels
             {
                 _selectedListingItem = value;
                 OnPropertyChanged(nameof(_selectedListingItem));
-                _selectedViewerStore.SelectedYouTubeViewer = new Models.YouTubeViewer();
+                //_selectedViewerStore.SelectedYouTubeViewer = new Models.YouTubeViewer();
             }
-        };
+        }
 
         public ListingModel(SelectedViewerStore selectedViewerStore)
         {

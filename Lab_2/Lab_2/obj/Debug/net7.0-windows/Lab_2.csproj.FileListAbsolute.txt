@@ -28,3 +28,6 @@ W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Components\tv_show.baml
 W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Components\tv_show.g.cs
 W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Components\tv_channel.g.cs
 W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Components\tv_channel.baml
+W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Components\TableListing.g.cs
+W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Components\TableListing.baml
+W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\App.baml

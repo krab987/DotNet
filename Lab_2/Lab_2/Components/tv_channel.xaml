@@ -7,13 +7,13 @@
              xmlns:Model="clr-namespace:Lab_2.Model" x:Class="Lab_2.Components.tv_channel"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid Background="White">
-        <DataGrid ItemsSource="{Binding}"  x:Name="gridChannel" Loaded="gridChannel_Loaded" AutoGenerateColumns="False">
+    <Grid>
+        <DataGrid ItemsSource="{Binding}"  x:Name="gridChannel" Loaded="gridChannel_Loaded" AutoGenerateColumns="False" ColumnHeaderStyle="{Binding Mode=OneWay, Source={StaticResource HeaderStyle}}" Background="{x:Null}" BorderBrush="{x:Null}">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ShowID" Binding="{Binding IdChannel}" IsReadOnly="True"/>
                 <DataGridTextColumn Width="*" Header="Name" Binding="{Binding Name}" IsReadOnly="True"/>
                 <DataGridTextColumn Width="*" Header="TypeShow" Binding="{Binding ChannelType}" IsReadOnly="True"/>
-                <DataGridTextColumn Width="*" Header="Duration" Binding="{Binding Frequency}" IsReadOnly="True"/>
+                <DataGridTextColumn Width="*" Header="Frequency" Binding="{Binding Frequency}" IsReadOnly="True"/>
             </DataGrid.Columns>
             <DataGrid.DataContext>
                 <Model:TableChannel/>

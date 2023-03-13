@@ -19,3 +19,15 @@ W:\projects\C#\.Net\YouTubeViewer\YouTubeViewer\obj\Debug\net7.0-windows\refint\
 W:\projects\C#\.Net\YouTubeViewer\YouTubeViewer\obj\Debug\net7.0-windows\YouTubeViewer.pdb
 W:\projects\C#\.Net\YouTubeViewer\YouTubeViewer\obj\Debug\net7.0-windows\YouTubeViewer.genruntimeconfig.cache
 W:\projects\C#\.Net\YouTubeViewer\YouTubeViewer\obj\Debug\net7.0-windows\ref\YouTubeViewer.dll
+W:\projects\C#\.Net\YouTubeViewer\YouTubeViewer\obj\Debug\net7.0-windows\Components\Listing.baml
+W:\projects\C#\.Net\YouTubeViewer\YouTubeViewer\obj\Debug\net7.0-windows\Check\Check.g.cs
+W:\projects\C#\.Net\YouTubeViewer\YouTubeViewer\obj\Debug\net7.0-windows\Components\Details.g.cs
+W:\projects\C#\.Net\YouTubeViewer\YouTubeViewer\obj\Debug\net7.0-windows\Components\Listing.g.cs
+W:\projects\C#\.Net\YouTubeViewer\YouTubeViewer\obj\Debug\net7.0-windows\View\ViewerView.g.cs
+W:\projects\C#\.Net\YouTubeViewer\YouTubeViewer\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+W:\projects\C#\.Net\YouTubeViewer\YouTubeViewer\bin\Debug\net7.0-windows\DropdownMenuControl.dll
+W:\projects\C#\.Net\YouTubeViewer\YouTubeViewer\obj\Debug\net7.0-windows\App.baml
+W:\projects\C#\.Net\YouTubeViewer\YouTubeViewer\obj\Debug\net7.0-windows\Components\Details.baml
+W:\projects\C#\.Net\YouTubeViewer\YouTubeViewer\obj\Debug\net7.0-windows\View\ViewerView.baml
+W:\projects\C#\.Net\YouTubeViewer\YouTubeViewer\obj\Debug\net7.0-windows\Check\Check.baml
+W:\projects\C#\.Net\YouTubeViewer\YouTubeViewer\obj\Debug\net7.0-windows\YouTubeViewer.csproj.CopyComplete

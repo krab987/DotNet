@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 W:\projects\C#\.Net\Lab_2\Lab_2\App.xaml
-5-632445952
+6-965045871
 
-152138319205
+161842493206
 1981911467256
-Components\Table_example.xaml;Components\tv_channel.xaml;Components\tv_show.xaml;MainWindow.xaml;View\TV_view.xaml;
+Components\TableListing.xaml;Components\Table_example.xaml;Components\tv_channel.xaml;Components\tv_show.xaml;MainWindow.xaml;View\TV_view.xaml;
 
-True
+False
 

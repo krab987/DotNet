@@ -6,22 +6,33 @@
         xmlns:components="clr-namespace:Lab_2.Components"
         mc:Ignorable="d"
         Title="Lab_2_Palochkin_DB"
-        Height="450" 
+        Height="365" 
         Width="800">
     <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="White" Offset="0"/>
+                <GradientStop Color="#FF9CF3F9" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <Grid>
+        <TextBlock Text="TV Shows" FontFamily="Comic Sans MS" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+        <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <TextBlock Grid.Column="0" Text="TV Shows"></TextBlock>
-            <Button x:Name="button" Grid.Column="1" Content="Add"></Button>
+
+            <components:tv_show Grid.Column="1" 
+                Grid.Row="1"
+                Margin="20"/>
+            <components:TableListing Margin="15,20,0,0"/>
         </Grid>
+
 
 
 

@@ -6,7 +6,7 @@ namespace YouTubeViewer.ViewModels
     {
         private readonly SelectedViewerStore _selectedViewerStore;
 
-        // public bool HasSelectedViewer => _selectedViewerStore.SelectedYouTubeViewer != null;
+        public bool HasSelectedViewer => _selectedViewerStore.SelectedYouTubeViewer != null;
         public string? Username => _selectedViewerStore.SelectedYouTubeViewer?.Username ?? "Unknown";
         public string IsSubscribedDisplay => _selectedViewerStore.SelectedYouTubeViewer.IsSubscribed ? "Yes" : "No";
 
