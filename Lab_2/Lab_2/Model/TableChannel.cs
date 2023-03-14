@@ -10,5 +10,6 @@ namespace Lab_2.Model
 {
     class TableChannel: ObservableCollection<RowChannel>
     {
+
     }
 }

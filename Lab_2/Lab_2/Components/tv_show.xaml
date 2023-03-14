@@ -8,7 +8,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <DataGrid ItemsSource="{Binding}"  x:Name="gridShow" ColumnHeaderStyle="{Binding Mode=OneWay, Source={StaticResource HeaderStyle}}" Loaded="grid_Loaded" AutoGenerateColumns="False" Background="{x:Null}" BorderBrush="{x:Null}">
+        <DataGrid  x:Name="gridShow" ColumnHeaderStyle="{Binding Mode=OneWay, Source={StaticResource HeaderStyle}}" Loaded="grid_Loaded" AutoGenerateColumns="False" Background="{x:Null}" BorderBrush="{x:Null}">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ShowID" Binding="{Binding Path=IdShow}" IsReadOnly="True"/>
                 <DataGridTextColumn Width="*" Header="Name" Binding="{Binding Path=Name}" IsReadOnly="True" MinWidth="100"/>

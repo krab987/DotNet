@@ -8,9 +8,7 @@ namespace Lab_2.Model.Enums
 {
     class RowChannel
     {
-
-
-        private static int counter;
+        private static int _counter;
         public int IdChannel { get; set; }
         public string Name { get; set; }
         public TypeChannel ChannelType { get; set; }
@@ -18,10 +16,16 @@ namespace Lab_2.Model.Enums
 
         public RowChannel(string name, TypeChannel channelType, double frequency)
         {
-            IdChannel = counter++;
+            IdChannel = _counter++;
             Name = name;
             ChannelType = channelType;
             Frequency = frequency;
+        }
+
+        public override string ToString()
+        {
+            return $"Name {Name}" +
+                   $"ChannelType {ChannelType}";
         }
     }
 }
