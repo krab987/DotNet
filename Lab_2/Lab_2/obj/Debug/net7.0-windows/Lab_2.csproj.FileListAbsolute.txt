@@ -31,3 +31,5 @@ W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Components\tv_channel.b
 W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Components\TableListing.g.cs
 W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Components\TableListing.baml
 W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\App.baml
+W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Components\MyDataGrid.g.cs
+W:\projects\C#\.Net\Lab_2\Lab_2\obj\Debug\net7.0-windows\Components\MyDataGrid.baml

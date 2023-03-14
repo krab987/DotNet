@@ -44,9 +44,6 @@ namespace Lab_2.Components
                 new RowChannel("ТЕТ", TypeChannel.Національний, 2649.7),
                 new RowChannel("МЕГА", TypeChannel.Національний, 5554.7),
                 new RowChannel("НТН", TypeChannel.Супутниковий, 9546.5)
-
-
-
             };
             gridChannel.ItemsSource = tableChannel;
         }

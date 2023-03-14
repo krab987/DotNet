@@ -10,10 +10,10 @@
     <Grid>
         <DataGrid ItemsSource="{Binding}"  x:Name="gridChannel" Loaded="gridChannel_Loaded" AutoGenerateColumns="False" ColumnHeaderStyle="{Binding Mode=OneWay, Source={StaticResource HeaderStyle}}" Background="{x:Null}" BorderBrush="{x:Null}">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="ShowID" Binding="{Binding IdChannel}" IsReadOnly="True"/>
-                <DataGridTextColumn Width="*" Header="Name" Binding="{Binding Name}" IsReadOnly="True"/>
-                <DataGridTextColumn Width="*" Header="TypeShow" Binding="{Binding ChannelType}" IsReadOnly="True"/>
-                <DataGridTextColumn Width="*" Header="Frequency" Binding="{Binding Frequency}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="ShowID" Binding="{Binding IdChannel}" IsReadOnly="True" MinWidth="50"/>
+                <DataGridTextColumn Width="*" Header="Name" Binding="{Binding Name}" IsReadOnly="True" MinWidth="100"/>
+                <DataGridTextColumn Width="*" Header="TypeShow" Binding="{Binding ChannelType}" IsReadOnly="True" MinWidth="150"/>
+                <DataGridTextColumn Width="*" Header="Frequency" Binding="{Binding Frequency}" IsReadOnly="True" MinWidth="80"/>
             </DataGrid.Columns>
             <DataGrid.DataContext>
                 <Model:TableChannel/>

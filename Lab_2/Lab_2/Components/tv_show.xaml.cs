@@ -44,7 +44,7 @@ namespace Lab_2.Components
                 new RowShow( "Оггі та кукарачі", TypeShow.Мультфільм, 120, CategoryShow.Зелений),
                 new RowShow( "Супер мама", TypeShow.РозважальнаПередача, 60, CategoryShow.Жовтий)
             };
-            grid.ItemsSource = tableShow;
+            gridShow.ItemsSource = tableShow;
         }
 
     }

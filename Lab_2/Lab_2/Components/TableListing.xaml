@@ -14,22 +14,22 @@
                 </Style>
             </ListView.ItemContainerStyle>
 
-            <Button Content="TV_Show" Click="TV_Show_Click"/>
+            <Button Content="TVShow_Button" Click="TV_Show_Click"/>
+            <Button Content="TV_Channel" Click="Button_Click"/>
+            <Button Content="TV_Broadcast"/>
+            <Button Content="TVShow_Button"/>
             <Button Content="TV_Channel"/>
             <Button Content="TV_Broadcast"/>
-            <Button Content="TV_Show"/>
+            <Button Content="TVShow_Button"/>
             <Button Content="TV_Channel"/>
             <Button Content="TV_Broadcast"/>
-            <Button Content="TV_Show"/>
+            <Button Content="TVShow_Button"/>
             <Button Content="TV_Channel"/>
             <Button Content="TV_Broadcast"/>
-            <Button Content="TV_Show"/>
+            <Button Content="TVShow_Button"/>
             <Button Content="TV_Channel"/>
             <Button Content="TV_Broadcast"/>
-            <Button Content="TV_Show"/>
-            <Button Content="TV_Channel"/>
-            <Button Content="TV_Broadcast"/>
-            <Button Content="TV_Show"/>
+            <Button Content="TVShow_Button"/>
             <Button Content="TV_Channel"/>
             <Button Content="TV_Broadcast"/>
         </ListView>

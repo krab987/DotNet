@@ -7,28 +7,41 @@
              mc:Ignorable="d"
              d:DesignHeight="300" d:DesignWidth="300" Background="White">
     <Grid>
+
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="White" Offset="0"/>
+                <GradientStop Color="#FF9CF3F9" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
-        
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-                <ColumnDefinition Width="Auto"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <TextBlock Grid.Column="0" Text="TV Shows"></TextBlock>
-            <Button Grid.Column="1" Content="Add"></Button>
-        </Grid>
-        
+
+        <TextBlock Name="Title_Label" Text="{Binding Content, ElementName=TVShow_Button}" FontFamily="Comic Sans MS" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <!--<components:tv_show Grid.Column="1" Margin="10 0 0 0" />-->
+
+            <Grid Margin="15,20,0,0">
+                <ListView Background="{x:Null}" Foreground="Black" BorderBrush="{x:Null}">
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="ListViewItem">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter>
+                        </Style>
+                    </ListView.ItemContainerStyle>
+
+                    <Button Name="TVShow_Button" Content="TV Shows" Click="TVShow_Click"/>
+                    <Button Content="TV Channels" Click="TVChannel_Click" Name="TVChannel_Button" ClickMode="Press"/>
+                    <Button Name="TVBroadcast_Button" Content="TV Broadcasts"/>
+                </ListView>
+            </Grid>
+            <DataGrid Grid.Column="1" x:Name="MainDataGrid" AutoGeneratingColumn="GridShow_OnAutoGeneratingColumn" Loaded="MainDataGrid_OnLoaded" ColumnHeaderStyle="{Binding Mode=OneWay, Source={StaticResource HeaderStyle}}" AutoGenerateColumns="True" Background="{x:Null}" BorderBrush="{x:Null}">
+            </DataGrid>
         </Grid>
-        
 
     </Grid>
 </UserControl>

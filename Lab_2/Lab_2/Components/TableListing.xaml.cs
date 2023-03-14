@@ -28,7 +28,12 @@ namespace Lab_2.Components
 
         private void TV_Show_Click(object sender, RoutedEventArgs e)
         {
-            EventHandler eventTVShow;
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
