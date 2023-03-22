@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Lab_2.Model.Enums.RowChannel">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIQAAEAAAAAAQAAIAAAAIAAAAAAAAAEAA=</HashCode>
+      <FileName>Model\RowChannel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab_2.Model.RowBroadcast">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAgAAABAAAAAAAAIAABAAAAAAAUAI=</HashCode>
+      <FileName>Model\RowBroadcast.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab_2.Model.RowShow">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAgAAACAAAAQAAAAAAAEAAAAAAAAAQAA=</HashCode>
+      <FileName>Model\RowShow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab_2.Model.TableBroadcast">
+    <Position X="0.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAACAAAEAAA=</HashCode>
+      <FileName>Model\TableBroadcast.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab_2.Model.TableChannel">
+    <Position X="2.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAACAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\TableChannel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab_2.Model.TableShow">
+    <Position X="4.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\TableShow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Lab_2.Model.Enums.CategoryShow">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAABAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Model\Enums\CategoryShow.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Lab_2.Model.Enums.TypeChannel">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Model\Enums\TypeChannel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Lab_2.Model.Enums.TypeShow">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Model\Enums\TypeShow.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

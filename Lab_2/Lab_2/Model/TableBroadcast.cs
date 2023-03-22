@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lab_2.Model
 {
@@ -12,7 +7,7 @@ namespace Lab_2.Model
     {
         public void DelRowByShow(int showId)
         {
-            foreach (RowBroadcast el in this)
+            foreach (RowBroadcast el in this.ToList())
             {
                 if (el.IdShow == showId)
                     Remove(el);
@@ -21,11 +16,21 @@ namespace Lab_2.Model
 
         public void DelRowByChannel(int channelId)
         {
-            foreach (RowBroadcast el in this)
+            foreach (RowBroadcast el in this.ToList())
             {
-                if (el.IdShow == channelId)
+                if (el.IdChannel == channelId)
                     Remove(el);
             }
+        }
+        public bool CheckUnique(RowBroadcast? row)
+        {
+            foreach (RowBroadcast el in this.ToList())
+            {
+                if(el.Equals(row) && el.IdBroadcast != row.IdBroadcast)
+                    return true;
+            }
+
+            return false;
         }
     }
 

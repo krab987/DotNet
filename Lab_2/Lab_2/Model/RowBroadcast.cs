@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
+using System.Xml.Linq;
 using Lab_2.Model.Enums;
 
 namespace Lab_2.Model
@@ -16,6 +18,11 @@ namespace Lab_2.Model
         public int IdChannel { get; set; }
         public int IdShow { get; set; }
 
+        public RowBroadcast()
+        {
+            IdBroadcast = _counter++;
+        }
+
         public RowBroadcast(DateTime beginning, DateTime ending, int idChannel, int idShow)
         {
             IdBroadcast = _counter++;
@@ -23,8 +30,29 @@ namespace Lab_2.Model
             Ending = ending;
             IdChannel = idChannel;
             IdShow = idShow;
+
             if (ending <= beginning)
                 throw new Exception("Ending mast be >= Beginning");
         }
+
+        protected bool Equals(RowBroadcast other)
+        {
+            return Beginning.Equals(other.Beginning) && Ending.Equals(other.Ending) && IdChannel == other.IdChannel && IdShow == other.IdShow;
+        }
+
+        public override bool Equals(object? obj)
+        {
+            if (ReferenceEquals(null, obj)) return false;
+            if (ReferenceEquals(this, obj)) return true;
+            if (obj.GetType() != this.GetType()) return false;
+            return Equals((RowBroadcast)obj);
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Beginning, Ending, IdChannel, IdShow);
+        }
+
+
     }
 }
