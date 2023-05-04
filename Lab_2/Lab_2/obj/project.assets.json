@@ -1557,9 +1557,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "W:\\projects\\C#\\.Net\\Lab_2\\Lab_2\\Lab_2.csproj",
-      "projectName": "Lab_2",
-      "projectPath": "W:\\projects\\C#\\.Net\\Lab_2\\Lab_2\\Lab_2.csproj",
+      "projectUniqueName": "W:\\projects\\C#\\.Net\\Lab_2\\Lab_2\\DBClasses.csproj",
+      "projectName": "DBClasses",
+      "projectPath": "W:\\projects\\C#\\.Net\\Lab_2\\Lab_2\\DBClasses.csproj",
       "packagesPath": "C:\\Users\\paloc\\.nuget\\packages\\",
       "outputPath": "W:\\projects\\C#\\.Net\\Lab_2\\Lab_2\\obj\\",
       "projectStyle": "PackageReference",

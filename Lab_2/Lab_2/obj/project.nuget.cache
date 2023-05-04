@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "txehp2MKHQiqebeL/YgJRp6CQiLigcIuPQllo8HYkfCkgSxPjGtNAWo8FBPxYrMSJoZ4ryEyjlgHMcquUo185Q==",
+  "dgSpecHash": "4nYnrrm2UnwybJJOTDV+b/DGK9EJZ3KvTCMCEHD6iD9ax4+N4UTo+BnloO/vTyrYMhGNhmOSVvl/Ol+ifcFOVA==",
   "success": true,
-  "projectFilePath": "W:\\projects\\C#\\.Net\\Lab_2\\Lab_2\\Lab_2.csproj",
+  "projectFilePath": "W:\\projects\\C#\\.Net\\Lab_2\\Lab_2\\DBClasses.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\paloc\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\paloc\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",
