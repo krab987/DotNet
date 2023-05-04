@@ -28,44 +28,43 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lab_1_UserControl = new Lab_1_ControlLibrary.Lab_1_UserControl();
-            this.lbl_inf = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            lab_1_UserControl = new Lab_1_ControlLibrary.Lab_1_UserControl();
+            lbl_inf = new Label();
+            SuspendLayout();
             // 
             // lab_1_UserControl
             // 
-            this.lab_1_UserControl.BackColor = System.Drawing.SystemColors.Control;
-            this.lab_1_UserControl.crushValue = 7;
-            this.lab_1_UserControl.currentValue = 0;
-            this.lab_1_UserControl.firstColor = System.Drawing.Color.LightBlue;
-            this.lab_1_UserControl.Location = new System.Drawing.Point(27, 34);
-            this.lab_1_UserControl.Name = "lab_1_UserControl";
-            this.lab_1_UserControl.secondColor = System.Drawing.Color.LightPink;
-            this.lab_1_UserControl.Size = new System.Drawing.Size(393, 187);
-            this.lab_1_UserControl.TabIndex = 0;
-            this.lab_1_UserControl.ValueChanged += new System.EventHandler(this.lab_1_UserControl1_ValueChanged);
-            this.lab_1_UserControl.Crush += new System.EventHandler(this.lab_1_UserControl_Crush);
+            lab_1_UserControl.BackColor = SystemColors.Control;
+            lab_1_UserControl.crushValue = 7;
+            lab_1_UserControl.currentValue = 0;
+            lab_1_UserControl.firstColor = Color.LightBlue;
+            lab_1_UserControl.Location = new Point(27, 34);
+            lab_1_UserControl.Name = "lab_1_UserControl";
+            lab_1_UserControl.secondColor = Color.LightPink;
+            lab_1_UserControl.Size = new Size(393, 187);
+            lab_1_UserControl.TabIndex = 0;
+            lab_1_UserControl.ValueChanged += lab_1_UserControl1_ValueChanged;
+            lab_1_UserControl.Crush += lab_1_UserControl_Crush;
             // 
             // lbl_inf
             // 
-            this.lbl_inf.AutoSize = true;
-            this.lbl_inf.Location = new System.Drawing.Point(213, 250);
-            this.lbl_inf.Name = "lbl_inf";
-            this.lbl_inf.Size = new System.Drawing.Size(0, 15);
-            this.lbl_inf.TabIndex = 1;
+            lbl_inf.AutoSize = true;
+            lbl_inf.Location = new Point(213, 250);
+            lbl_inf.Name = "lbl_inf";
+            lbl_inf.Size = new Size(0, 15);
+            lbl_inf.TabIndex = 1;
             // 
             // Lab_1_Palochkin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(458, 361);
-            this.Controls.Add(this.lbl_inf);
-            this.Controls.Add(this.lab_1_UserControl);
-            this.Name = "Lab_1_Palochkin";
-            this.Text = "Lab_1_Palochkin";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(458, 361);
+            Controls.Add(lbl_inf);
+            Controls.Add(lab_1_UserControl);
+            Name = "Lab_1_Palochkin";
+            Text = "ProgressBarRemake";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

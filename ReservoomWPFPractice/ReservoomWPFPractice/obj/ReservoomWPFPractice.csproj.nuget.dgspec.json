@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "W:\\projects\\C#\\ReservoomWPFPractice\\ReservoomWPFPractice\\ReservoomWPFPractice.csproj": {}
+    "W:\\projects\\C#\\.Net\\ReservoomWPFPractice\\ReservoomWPFPractice\\ReservoomWPFPractice.csproj": {}
   },
   "projects": {
-    "W:\\projects\\C#\\ReservoomWPFPractice\\ReservoomWPFPractice\\ReservoomWPFPractice.csproj": {
+    "W:\\projects\\C#\\.Net\\ReservoomWPFPractice\\ReservoomWPFPractice\\ReservoomWPFPractice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\projects\\C#\\ReservoomWPFPractice\\ReservoomWPFPractice\\ReservoomWPFPractice.csproj",
+        "projectUniqueName": "W:\\projects\\C#\\.Net\\ReservoomWPFPractice\\ReservoomWPFPractice\\ReservoomWPFPractice.csproj",
         "projectName": "ReservoomWPFPractice",
-        "projectPath": "W:\\projects\\C#\\ReservoomWPFPractice\\ReservoomWPFPractice\\ReservoomWPFPractice.csproj",
+        "projectPath": "W:\\projects\\C#\\.Net\\ReservoomWPFPractice\\ReservoomWPFPractice\\ReservoomWPFPractice.csproj",
         "packagesPath": "C:\\Users\\paloc\\.nuget\\packages\\",
-        "outputPath": "W:\\projects\\C#\\ReservoomWPFPractice\\ReservoomWPFPractice\\obj\\",
+        "outputPath": "W:\\projects\\C#\\.Net\\ReservoomWPFPractice\\ReservoomWPFPractice\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "W:\\programms\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\paloc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +62,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

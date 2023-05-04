@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "W:\\projects\\C#\\.Net_pfsd\\Lab_1_Palochkin\\Lab_1\\Lab_1.csproj": {}
+    "W:\\projects\\C#\\.Net\\Lab_1_Palochkin\\Lab_1\\Lab_1.csproj": {}
   },
   "projects": {
-    "W:\\projects\\C#\\.Net_pfsd\\Lab_1_Palochkin\\Lab_1\\Lab_1.csproj": {
+    "W:\\projects\\C#\\.Net\\Lab_1_Palochkin\\Lab_1\\Lab_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\projects\\C#\\.Net_pfsd\\Lab_1_Palochkin\\Lab_1\\Lab_1.csproj",
+        "projectUniqueName": "W:\\projects\\C#\\.Net\\Lab_1_Palochkin\\Lab_1\\Lab_1.csproj",
         "projectName": "Lab_1",
-        "projectPath": "W:\\projects\\C#\\.Net_pfsd\\Lab_1_Palochkin\\Lab_1\\Lab_1.csproj",
+        "projectPath": "W:\\projects\\C#\\.Net\\Lab_1_Palochkin\\Lab_1\\Lab_1.csproj",
         "packagesPath": "C:\\Users\\paloc\\.nuget\\packages\\",
-        "outputPath": "W:\\projects\\C#\\.Net_pfsd\\Lab_1_Palochkin\\Lab_1\\obj\\",
+        "outputPath": "W:\\projects\\C#\\.Net\\Lab_1_Palochkin\\Lab_1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "W:\\programms\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\paloc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "W:\\projects\\C#\\.Net_pfsd\\Lab_1_Palochkin\\Lab_1_ControlLibrary\\Lab_1_ControlLibrary.csproj": {
-                "projectPath": "W:\\projects\\C#\\.Net_pfsd\\Lab_1_Palochkin\\Lab_1_ControlLibrary\\Lab_1_ControlLibrary.csproj"
+              "W:\\projects\\C#\\.Net\\Lab_1_Palochkin\\Lab_1_ControlLibrary\\Lab_1_ControlLibrary.csproj": {
+                "projectPath": "W:\\projects\\C#\\.Net\\Lab_1_Palochkin\\Lab_1_ControlLibrary\\Lab_1_ControlLibrary.csproj"
               }
             }
           }
@@ -62,21 +66,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "W:\\projects\\C#\\.Net_pfsd\\Lab_1_Palochkin\\Lab_1_ControlLibrary\\Lab_1_ControlLibrary.csproj": {
+    "W:\\projects\\C#\\.Net\\Lab_1_Palochkin\\Lab_1_ControlLibrary\\Lab_1_ControlLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\projects\\C#\\.Net_pfsd\\Lab_1_Palochkin\\Lab_1_ControlLibrary\\Lab_1_ControlLibrary.csproj",
+        "projectUniqueName": "W:\\projects\\C#\\.Net\\Lab_1_Palochkin\\Lab_1_ControlLibrary\\Lab_1_ControlLibrary.csproj",
         "projectName": "Lab_1_ControlLibrary",
-        "projectPath": "W:\\projects\\C#\\.Net_pfsd\\Lab_1_Palochkin\\Lab_1_ControlLibrary\\Lab_1_ControlLibrary.csproj",
+        "projectPath": "W:\\projects\\C#\\.Net\\Lab_1_Palochkin\\Lab_1_ControlLibrary\\Lab_1_ControlLibrary.csproj",
         "packagesPath": "C:\\Users\\paloc\\.nuget\\packages\\",
-        "outputPath": "W:\\projects\\C#\\.Net_pfsd\\Lab_1_Palochkin\\Lab_1_ControlLibrary\\obj\\",
+        "outputPath": "W:\\projects\\C#\\.Net\\Lab_1_Palochkin\\Lab_1_ControlLibrary\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "W:\\programms\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\paloc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -120,7 +128,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

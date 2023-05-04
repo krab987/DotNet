@@ -12,11 +12,13 @@ namespace Lab_2.Model
     class RowBroadcast
     {
         private static int _counter;
-        public int IdBroadcast { get; set; }
-        public DateTime Beginning { get; set; }
-        public DateTime Ending { get; set; }
-        public int IdChannel { get; set; }
-        public int IdShow { get; set; }
+        public int IdBroadcast { get; }
+        public DateTime Beginning { get; }
+        public DateTime Ending { get; }
+        public int IdChannel { get; }
+        public int IdShow { get; }
+        public RowChannel MyRowChannel { get; }
+        public RowShow MyRowShow { get; }
 
         public RowBroadcast()
         {
@@ -35,7 +37,7 @@ namespace Lab_2.Model
                 throw new Exception("Ending mast be >= Beginning");
         }
 
-        protected bool Equals(RowBroadcast other)
+        private bool Equals(RowBroadcast other)
         {
             return Beginning.Equals(other.Beginning) && Ending.Equals(other.Ending) && IdChannel == other.IdChannel && IdShow == other.IdShow;
         }

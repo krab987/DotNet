@@ -17,7 +17,7 @@ namespace Lab_1
 
         private void lab_1_UserControl_Crush(object sender, EventArgs e)
         {
-            lbl_inf.Text = "Color is crushed";        
+            lbl_inf.Text = "Color is crushed";
         }
     }
 }

@@ -2,14 +2,14 @@
   "version": 3,
   "targets": {
     "net7.0-windows7.0": {
-      "Lab_1_ControlLibrary/1.0.0": {
+      "ProgressBarRemake_ControlLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/Lab_1_ControlLibrary.dll": {}
+          "bin/placeholder/ProgressBarRemake_ControlLibrary.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Lab_1_ControlLibrary.dll": {}
+          "bin/placeholder/ProgressBarRemake_ControlLibrary.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -18,31 +18,36 @@
     }
   },
   "libraries": {
-    "Lab_1_ControlLibrary/1.0.0": {
+    "ProgressBarRemake_ControlLibrary/1.0.0": {
       "type": "project",
-      "path": "../Lab_1_ControlLibrary/Lab_1_ControlLibrary.csproj",
-      "msbuildProject": "../Lab_1_ControlLibrary/Lab_1_ControlLibrary.csproj"
+      "path": "../Lab_1_ControlLibrary/ProgressBarRemake_ControlLibrary.csproj",
+      "msbuildProject": "../Lab_1_ControlLibrary/ProgressBarRemake_ControlLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0-windows7.0": [
-      "Lab_1_ControlLibrary >= 1.0.0"
+      "ProgressBarRemake_ControlLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\paloc\\.nuget\\packages\\": {}
+    "C:\\Users\\paloc\\.nuget\\packages\\": {},
+    "W:\\programms\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "W:\\projects\\C#\\.Net_pfsd\\Lab_1_Palochkin\\Lab_1\\Lab_1.csproj",
-      "projectName": "Lab_1",
-      "projectPath": "W:\\projects\\C#\\.Net_pfsd\\Lab_1_Palochkin\\Lab_1\\Lab_1.csproj",
+      "projectUniqueName": "W:\\projects\\C#\\.Net\\Lab_1_Palochkin\\Lab_1\\ProgressBarRemake.csproj",
+      "projectName": "ProgressBarRemake",
+      "projectPath": "W:\\projects\\C#\\.Net\\Lab_1_Palochkin\\Lab_1\\ProgressBarRemake.csproj",
       "packagesPath": "C:\\Users\\paloc\\.nuget\\packages\\",
-      "outputPath": "W:\\projects\\C#\\.Net_pfsd\\Lab_1_Palochkin\\Lab_1\\obj\\",
+      "outputPath": "W:\\projects\\C#\\.Net\\Lab_1_Palochkin\\Lab_1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "W:\\programms\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\paloc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -56,8 +61,8 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "W:\\projects\\C#\\.Net_pfsd\\Lab_1_Palochkin\\Lab_1_ControlLibrary\\Lab_1_ControlLibrary.csproj": {
-              "projectPath": "W:\\projects\\C#\\.Net_pfsd\\Lab_1_Palochkin\\Lab_1_ControlLibrary\\Lab_1_ControlLibrary.csproj"
+            "W:\\projects\\C#\\.Net\\Lab_1_Palochkin\\Lab_1_ControlLibrary\\ProgressBarRemake_ControlLibrary.csproj": {
+              "projectPath": "W:\\projects\\C#\\.Net\\Lab_1_Palochkin\\Lab_1_ControlLibrary\\ProgressBarRemake_ControlLibrary.csproj"
             }
           }
         }
@@ -90,7 +95,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -305,7 +305,7 @@ namespace Lab_2.View
         private void TVShow_Click(object sender, RoutedEventArgs e)
         {
             Title_Label.Text = TVShow_Button.Content.ToString();
-            MainDataGrid.ItemsSource = _tableShow;  
+            MainDataGrid.ItemsSource = _tableShow; 
             MainDataGrid.Columns[0].Width = new DataGridLength(1, DataGridLengthUnitType.Auto);
             MainDataGrid.Columns[0].MinWidth = 20;
 
@@ -374,7 +374,7 @@ namespace Lab_2.View
 
         private void MainDataGrid_OnCellEditEnding(object? sender, DataGridCellEditEndingEventArgs e)
         {
-            string? elText = (e.EditingElement as TextBox)?.Text;
+            var elText = (e.EditingElement as TextBox)?.Text;
             try
             {
                 if (elText == String.Empty || elText == "0")
